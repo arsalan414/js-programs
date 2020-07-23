@@ -1,0 +1,23 @@
+*{
+    background-color: lightcoral;
+}
+.signup-form{
+    font-size: larger;
+}
+.text{
+    font-size: 30px;
+}
+.field{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.submit{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid grey;
+    background-color: rgb(252, 251, 249);
+}
