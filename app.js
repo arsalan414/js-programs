@@ -1211,21 +1211,25 @@ else{
 
 //Chapter 43-48
 
-//Question no.01
-function getelement(){
-    var firstname=document.getElementById('firstname').value
+// //Question no.01
+// function getelement(){
+//     var firstname=document.getElementById('firstname').value
     
-    var lastname=document.getElementById('lastname').value
+//     var lastname=document.getElementById('lastname').value
     
-    var email=document.getElementById('email').value
+//     var email=document.getElementById('email').value
     
-    var number=document.getElementById('number').value
-    document.write("First name: "+firstname+"<br>")
-    document.write("last name:  "+lastname+"<br>")
-    document.write("email: "+email+"<br>")
-    document.write("Phone Number: "+number+"<br>")
-    }
+//     var number=document.getElementById('number').value
+//     document.write("First name: "+firstname+"<br>")
+//     document.write("last name:  "+lastname+"<br>")
+//     document.write("email: "+email+"<br>")
+//     document.write("Phone Number: "+number+"<br>")
+//     }
     
     
-    //Question no.02
-    //Question no.03
+//Question no.02
+function more(){
+var list='<h1>car availables</h1><ol><li>honda</li><li>toyota</li><li>suzuki</li><li>yamaha</li><li>ferrari</li><li>land cruiser</li><li>daewoo</li></ol>'
+document.write(list)
+}
+//Question no.03
