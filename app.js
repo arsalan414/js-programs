@@ -1227,9 +1227,39 @@ else{
 //     }
     
     
-//Question no.02
-function more(){
-var list='<h1>car availables</h1><ol><li>honda</li><li>toyota</li><li>suzuki</li><li>yamaha</li><li>ferrari</li><li>land cruiser</li><li>daewoo</li></ol>'
-document.write(list)
-}
+// //Question no.02
+// function more(){
+// var list='<h1>car availables</h1><ol><li>honda</li><li>toyota</li><li>suzuki</li><li>yamaha</li><li>ferrari</li><li>land cruiser</li><li>daewoo</li></ol>'
+// document.write(list)
+// }
 //Question no.03
+
+
+
+
+// //Chapter 58-67
+
+// //Question No.1
+
+// var mainContent=document.getElementById('main-content')
+// console.log(mainContent.children)
+// var render=document.getElementsByClassName('render')
+// for (var i=0;i<render.length;i++){
+//      console.log(render[i].innerHTML)
+// }
+// var firstName = document.getElementById('first-name')
+// var lastName = document.getElementById('last-name')
+// var email = document.getElementById('e-mail')
+// firstName.value= "Muhammad"
+// lastName.value="Arsalan"
+// email.value="arsalanbaba414@yahoo.com"
+
+
+// //Question no.2
+
+// console.log(document.getElementById("form-content").nodeType)
+// console.log(document.getElementById("lastName").childNodes)
+// console.log(document.getElementById("lastName").childNodes[0].value="LastName Update")
+// console.log(mainContent.firstChild,mainContent.lastChild)
+// console.log(document.getElementById('lastName').nextSibling,document.getElementById('lastName').previousSibling)
+// console.log(document.getElementById('email').parentElement)
